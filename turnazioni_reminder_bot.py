@@ -1,6 +1,6 @@
 #Tutti gli import necessari
 
-from datetime import datetime as dt
+from datetime import datetime
 import telebot
 from telebot import util, types
 from telebot import types
@@ -24,7 +24,7 @@ admins = {
 #Funzioni
 
 def t():
-  return dt.now()
+  return datetime.now()
 
 #################################################
 #Messaggi
